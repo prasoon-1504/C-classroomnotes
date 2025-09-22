@@ -32,6 +32,7 @@ int* arr = (int*)calloc(sizeof(int),5)
     //! If problem size increasing / decreasing by a factor K then --> time complexity is log(N) base k
     //! If a number of constant value is added or multiplied  --> TC does not change
     //! Always pick the major TC in case of higher or lower are added [O(n^2)+ O(n) = O(n^2)]
+    //? O(constant) = 0(1)
     
 
 
