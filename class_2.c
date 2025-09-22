@@ -16,11 +16,11 @@ int main(){
 
    
 //! malloc stores garbage value if value is not specified  
-   int* arr = (int*)malloc(sizeof(int)*5) //? dynamic array is created 
+   int* arr = (int*)malloc(sizeof(int)*5); //? dynamic array is created 
    //? 5 int type can be stored in this dynamic array
 
 //! calloc is generally for arrays , as it replace garbage value to 0 ;
-int* arr = (int*)calloc(sizeof(int),5)
+int* arr = (int*)calloc(sizeof(int),5);
 
 
 
@@ -33,6 +33,15 @@ int* arr = (int*)calloc(sizeof(int),5)
     //! If a number of constant value is added or multiplied  --> TC does not change
     //! Always pick the major TC in case of higher or lower are added [O(n^2)+ O(n) = O(n^2)]
     //? O(constant) = 0(1)
+
+    //! Important Time Complexity
+    //? Binary search --> log(N)
+    //? Merge sort --> Nlog(N)
+    //? Quick sort --> Nlog(N)
+    //? Heap sort --> Nlog(N)
+    //? BUbble sort --> N^2
+    //? insertion sort --> N^2
+    //? selection  sort --> N^2
     
 
 
