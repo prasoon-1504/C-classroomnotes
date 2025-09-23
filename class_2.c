@@ -5,7 +5,7 @@ int main(){
     //*   DYNAMIC MEMORY ALLOCATION
 
     malloc(4); //? allocate 4 byte memory and returns a void pointer 
-    int* p = (int*)malloc(4) //? changed to int type pointer
+    int* p = (int*)malloc(4); //? changed to int type pointer
     //! 'p' is address of the pointer '*p' gives the value at p
 
     int* p = (int*)malloc(sizeof(int));
