@@ -40,7 +40,7 @@ int main(){
 
     //? to use modify we need pointer to change cause the function is local 
    
-    modify(s1);
+    // modify(s1); *use*
     print(s1);
     print(s2);
     
