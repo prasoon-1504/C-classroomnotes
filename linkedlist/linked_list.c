@@ -50,11 +50,13 @@ int main(){
 
     while (p!=NULL)
     {
-        printf("%d->",p->data);
+        printf("%d ",p->data);
         p = p->next;
     }
-    
-    
+
+
+//! data insertion
+//? we can insert data in linked list in two ways from head or from last element
 
     
     return 0;     
